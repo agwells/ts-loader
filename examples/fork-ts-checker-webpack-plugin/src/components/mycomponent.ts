@@ -8,5 +8,8 @@ export function MyComponent(): any {
   return null;
 }
 MyComponent.defaultProps = {
+  /**
+   * Comment out this line, and it will compile successfully.
+   */
   myProp: exportedFunction(),
 };
